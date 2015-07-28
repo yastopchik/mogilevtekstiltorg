@@ -1,0 +1,214 @@
+@media only screen and (max-width: 1920px) {
+  .wrapper {	
+	width:1170px;
+	height:595px;	
+  	background:url(../images/svitok.png) no-repeat bottom;
+ }
+ .wrapper2 {	
+	width:1170px;
+	height:595px;	
+ } 
+}
+@media (min-width: 1080px) and (max-width: 1200px) {
+  .wrapper {	
+	width:1170px;
+	height:595px;	
+  	background:url(../images/svitok.png) no-repeat bottom;
+ }
+ .wrapper2 {	
+	width:1170px;
+	height:484px;	
+ } 
+}
+@media only screen and (max-width: 1080px) {
+  .wrapper {	
+	width:970px;
+	height:492px;
+  	background:url(../images/svitok.png) no-repeat bottom;
+ }
+ .wrapper2 {	
+	width:970px;
+	height:484px;	
+ }
+}
+@media only screen and (max-width: 900px) {
+  .wrapper {	
+	width:750px;
+	height:374px;
+  	background:url(../images/svitok.png) no-repeat bottom;
+ }
+ .wrapper2 {	
+	width:750px;
+	height:374px;	
+ }
+}
+@media only screen and (max-width: 667px) {
+  .wrapper {	
+	width:650px;
+	height:300px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:650px;
+	height:300px;	
+ }
+}
+@media only screen and (max-width: 640px) {
+  .wrapper {	
+	width:640px;
+	height:300px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:640px;
+	height:300px;	
+ }
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {	
+	width:600px;
+	height:300px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:600px;
+	height:300px;	
+ }
+}
+@media only screen and (max-width: 568px) {
+  .wrapper {	
+	width:568px;
+	height:280px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:568px;
+	height:280px;	
+ }
+}
+@media only screen and (max-width: 480px) {
+.wrapper {	
+	width:480px;
+	height:237px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:480px;
+	height:237px;	
+ }
+}
+@media only screen and (max-width: 360px) {
+.wrapper {	
+	width:360px;
+	height:175px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:360px;
+	height:175px;	
+ }
+}
+@media only screen and (max-width: 320px) {
+.wrapper {	
+	width:320px;
+	height:143px;
+  	background:none;
+ }
+ .wrapper2 {	
+	width:320px;
+	height:143px;	
+ }
+}
+.wrapper {
+	position:relative;		
+	display:block;		
+	z-index:2;
+}
+.wrapper2 {
+	position:relative;	
+	margin-top:20px;	
+	display:block;
+	z-index:2;
+	text-align:center;
+	padding-bottom:50px;
+}
+.wrapper2 a {
+	display:inline-block;
+	padding:0px 5px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:3px;
+	text-decoration:none;
+	margin:0px 5px;	
+}
+.wrapper2 .active-transition {
+	background:#222;
+	color:#fff;	
+}
+/*---------- Slider ----------- */
+
+/*---------- Left and Right Triggers ----------- */
+#slide-prev {
+	position:absolute;
+	width:21px;
+	height:33px;
+	bottom:39px;
+	left:26px;
+	z-index:4;
+	background:url(../images/sl-control.png) left top no-repeat;
+}
+#slide-next {
+	position:absolute;
+	width:21px;
+	height:33px;
+	bottom:39px;
+	right:26px;
+	z-index:4;
+	background:url(../images/sl-control.png) left bottom no-repeat;
+}
+
+
+/*---------- Shadow, just for styling ----------- */
+
+/*---------- Main Slider Container----------- */
+#slider {	
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:2;
+	display:block;
+}
+/* Every slide must be hidden by default */
+.slide { display:none; }
+
+/* 
+   And only the slide with "cs-activeSlide" class must be visible!
+   !Reserved Class name. Required class! 
+*/
+.cs-activeSlide { display:block; }
+
+/* Container with caption's text. Must be hidden */
+.slide-descriptions {
+	display:none;
+}
+
+/* Container with caption, must be hidden by default */
+.caption {
+	background: url("../images/d-bg.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: none;
+    height: 280px;
+    padding: 20px;
+    position: absolute;
+    right: 40px;
+    top: 140px;
+    width: 180px;
+    z-index: 3;
+}
+.full-3D {
+	right: 40px;
+    top: 180px;
+    width: 840px;
+	height:20px;
+}
+
